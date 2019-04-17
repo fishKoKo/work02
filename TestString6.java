@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class TestString6 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// TODO 自动生成的方法存根
 		Random r1 = new Random() ;
 		int[] arr = new int[10];
