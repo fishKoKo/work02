@@ -16,16 +16,15 @@ public class test3 {
 		}
         System.out.println();
         
-        String e = "";
+        char[] d = new char[b.length];
+        String e = new String();
         for(int i = 0;i < b.length;i++) {
         	Integer g =Integer.valueOf(b[i]);
-        	char d = (char) g.intValue();
-        	System.out.print(d +" ");
-        	e = e + d;
+        	d[i] = (char) g.intValue();
+        	e = e + d[i];
         }
-        System.out.println();
-        
-        System.out.println(e);
+        System.out.println(Arrays.toString(d));
+        System.out.println(e.toString());
 	}
 
 }
